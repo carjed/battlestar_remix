@@ -31,7 +31,7 @@ Running `Rscript /path/to/script_generator.R` from the command line (or `source(
 
 `"ADAMA: All right. all right. so, what the hell is tom zarek."`
 
-You can also run this with the `tweet` argument (`Rscript /path/to/script_generator.R tweet`), which will load the `twitteR` package and the `_config.yml` file containing your unique API keys, then update the status of your twitter bot with the generated text.
+You can also run this with the `tweet` argument (`Rscript /path/to/script_generator.R tweet`), which will load the `twitteR` package and the `_config.yml` file containing your unique API keys (see [Configuration](#configuration) below), then update the status of your twitter bot with the generated text.
 
 ## Twitter API Setup
 
@@ -39,11 +39,11 @@ In order to use the `tweet` argument and send tweets directly from this script, 
 
 ## Configuration
 
-Once you have set up your twitter app and located the four keys, you will need to add them to the `_config.yaml` file. This repository includes a template file (`_example_config.yaml`) that you can modify and rename with your unique keys.
+Once you have set up your twitter app and located the four keys, you will need to create a file named `_config.yaml` and assign your keys to the appropriate variables (`api_key`, `api_secret`, `access_token`, and `access_token_secret`). This repository includes a [template file](_example_config.yaml) that you can modify with your unique keys. Remember to keep these keys secret to prevent unwanted access to your twitter app!
 
 ## Try with a new show
 
-This application is designed to accommodate different shows from the Springfield! Springfield! database as flexibly as possible. Unfortunately, the metadata and actual script text from the database are formatted the same as the Battlestar Galactica scripts used here. For example, background effects may be delimited by parentheses rather than square brackets, quotes may not be assigned to a character, and HTML tags for the episode names may differ slightly.
+This application is designed to accommodate different shows from the Springfield! Springfield! database as flexibly as possible. Unfortunately, the metadata and actual script text from the database are not necessarily formatted the same as the Battlestar Galactica scripts used here. For example, background effects may be delimited by parentheses rather than square brackets, quotes may not be assigned to a character, and HTML tags for the episode names may differ slightly.
 
 ## Automation
 
