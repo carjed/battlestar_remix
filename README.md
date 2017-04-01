@@ -27,7 +27,7 @@ require(yaml)
 ```
 
 ## Running the script
-Running `Rscript /path/to/script_generator.R` from the command line (or `source(/path/to/script_generator.R)` from within an active R or RStudio session) outputs a single generated text string, such as:
+Running `Rscript /path/to/script_generator.R` from the command line (or `source("/path/to/script_generator.R")` from within an active R or RStudio session) outputs a single generated text string, such as:
 
 `"[microphone screeching][sniffs] STARBUCK: It's an honor to have to talk, not really."`
 
@@ -37,7 +37,7 @@ You can also run this with the `tweet` argument (`Rscript /path/to/script_genera
 
 ## Twitter API Setup
 
-In order to use the `tweet` argument and send tweets directly from this script, you will need to create a twitter application. If this is your first time using Twitter's REST API,  [SlickRemix](https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/) has a nice walkthrough for creating a twitter app and finding your keys.
+In order to use the `tweet` argument and send tweets directly from this script, you will need to create a twitter application at https://apps.twitter.com/. If this is your first time using Twitter's REST API,  [SlickRemix](https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/) has a nice walkthrough for creating a twitter app and finding your keys.
 
 ## Configuration
 
