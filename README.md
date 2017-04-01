@@ -1,7 +1,6 @@
 -   [TV script Twitter bot](#tv-script-twitter-bot)
     -   [Dependencies](#dependencies)
     -   [Running the script](#running-the-script)
-    -   [Twitter API setup](#twitter-api-setup)
     -   [Configuration](#configuration)
     -   [Try with a new show](#try-with-a-new-show)
     -   [Automation](#automation)
@@ -35,11 +34,9 @@ You can also run this with the `tweet` argument (`Rscript /path/to/script_genera
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">[microphone screeching][sniffs] STARBUCK: It&#39;s an honor to have to talk, not really.</p>&mdash; Number Nine (@MightBeACylon) <a href="https://twitter.com/MightBeACylon/status/848220676280508418">April 1, 2017</a></blockquote>
 
-## Twitter API Setup
-
-In order to use the `tweet` argument and send tweets directly from this script, you will need to create a twitter application at https://apps.twitter.com/. If this is your first time using Twitter's REST API,  [SlickRemix](https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/) has a nice walkthrough for creating an app and finding your keys.
-
 ## Configuration
+
+In order to send tweets directly from this script, you will need to create a twitter application at https://apps.twitter.com/. If this is your first time using Twitter's REST API,  [SlickRemix](https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/) has a nice walkthrough for creating an app and finding your keys.
 
 Once you have set up your twitter app and located the four keys, you will need to create a file named `_config.yaml` and assign your keys to the appropriate variables (`api_key`, `api_secret`, `access_token`, and `access_token_secret`). This repository includes a [template file](_example_config.yaml) that you can modify with your unique keys. Remember to keep these keys secret to prevent unwanted access to your twitter app!
 
