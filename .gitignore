@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/r
 ### config ###
 _config.yaml
+.log
 
 ### R ###
 # History files

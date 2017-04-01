@@ -1,23 +1,24 @@
 #!/usr/bin/Rscript
 
-require(rvest)
-require(dplyr)
-require(stringr)
-require(twitteR)
-require(yaml)
+# sink(".log")
 
-isRStudio <- Sys.getenv("RSTUDIO") == "1"
+suppressMessages(require(rvest))
+suppressMessages(require(dplyr))
+suppressMessages(require(stringr))
+suppressMessages(require(yaml))
 
-if(isRStudio){
-  this.dir <- dirname(parent.frame(2)$ofile)
-  setwd(this.dir)
+# isRStudio <- Sys.getenv("RSTUDIO") == "1"
+# if(isRStudio){
+#   this.dir <- dirname(parent.frame(2)$ofile)
+#   setwd(this.dir)
+# }
+
+tweet <- "test"
+args = commandArgs(trailingOnly=TRUE)
+# print(commandArgs())
+if(length(args)==1){
+  tweet <- args[1]  
 }
-
-# must create a '_config.yaml' file specifying your unique access tokens to use the twitter API
-# See '_example_config.yaml' for an example
-data <- yaml.load_file("_config.yaml")
-
-setup_twitter_oauth(data$api_key, data$api_secret, data$access_token, data$access_token_secret)
 
 
 # Enter show name as formatted on the Springfield! Springfield! website 
@@ -36,11 +37,12 @@ getScript <- function(URL){
   return(script)
 }
 
-# Only need to build datasets once
+# Define input datasets
 showfile <- paste0(show, ".txt")
 charfile <- paste0(show, "_chars.txt")
 effectfile <- paste0(show, "_effects.txt")
 
+# Only need to build datasets once
 if(!all(file.exists(showfile, charfile, effectfile))){
   # build df with episode indices
   series <- read_html(seriesURL) %>%
@@ -61,22 +63,22 @@ if(!all(file.exists(showfile, charfile, effectfile))){
     arrange(desc(n)) %>%
     mutate(wt=n/sum(n))
   
-  write.table(characters, charfile, quote=F, sep="\t", col.names=T, row.names=F)
-  
   # Get list of effects used
   effects <- data.frame(effect=unlist(strsplit(testbr, "(?<=[\\]])", perl=T))) %>%
     mutate(effect=gsub("^.*?\\[", "[", effect)) %>%
     group_by(effect) %>%
     summarise(n=n())
   
-  write.table(effects, effectfile, quote=F, sep="\t", col.names=T, row.names=F)
-  
+  # Strip effects from sentences
   sents <- gsub("\\[|\\]", "", gsub(paste(gsub("\\[|\\]", "", effects$effect), collapse="|"), "", sents))
   sents <- trimws(sents)
   
   # Write show script to data file
   write.table(sents, showfile, quote=F, sep="\t", col.names=F, row.names=F)
+  write.table(characters, charfile, quote=F, sep="\t", col.names=T, row.names=F)
+  write.table(effects, effectfile, quote=F, sep="\t", col.names=T, row.names=F)
 } else {
+  # Read data if already cached
   sents <- readLines(showfile)
   characters <- read.table(charfile, header=T, stringsAsFactors=F, sep="\t")
   effects <- read.table(effectfile, header=T, stringsAsFactors=F, sep="\t")
@@ -111,9 +113,26 @@ getTweet <- function(){
   return(line)
 }
 
-# txt<-getTweet()
+txt<-getTweet()
 
-updateStatus(getTweet())
+# tweet <- 1
+if(tweet=="tweet"){
+  suppressMessages(require(twitteR))
+
+  # must create a '_config.yaml' file specifying your unique access tokens to use the twitter API
+  # See '_example_config.yaml' for an example
+  data <- yaml.load_file("_config.yaml")
+  setup_twitter_oauth(data$api_key, data$api_secret, data$access_token, data$access_token_secret)
+  # sink()
+  # Generates and posts a tweet
+  updateStatus(txt)
+} else {
+  # sink()
+  txt
+}
+
+# file.remove(".log")
+
   
 
 
