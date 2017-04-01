@@ -1,0 +1,4 @@
+api_key: "keystring"
+api_secret: "secret_keystring"
+access_token: "token"
+access_token_secret: "secret_token"

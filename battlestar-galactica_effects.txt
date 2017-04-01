@@ -1,0 +1,472 @@
+effect	n
+[adama groans]	1
+[adama sighs]	2
+[aircraft engine revving]	1
+[airplanes rumbling]	1
+[alarm beeping]	1
+[alarm blaring]	14
+[alarm buzzing]	1
+[alarm continues beeping]	1
+[alarm continues blaring]	1
+[alarm ringing]	1
+[alarm sounding]	3
+[all applauding]	5
+[all chanting]	1
+[all chattering]	4
+[all cheering and clapping]	1
+[all cheering]	3
+[all chuckle]	1
+[all clamoring]	2
+[all clapping]	2
+[all coughing]	1
+[all grunting]	1
+[all murmuring]	1
+[all muttering]	1
+[all screaming]	1
+[all talking]	1
+[anders sighs]	1
+[apollo clears throat]	1
+[apollo groaning in pain]	1
+[apollo grunts]	2
+[apollo laughing]	2
+[apollo panting]	1
+[apollo scoffs]	1
+[apollo screaming]	1
+[apollo sighs]	2
+[apollo whooping]	1
+[ball bouncing]	1
+[baltar's zipper opening]	1
+[baltar coughing]	1
+[baltar coughs]	1
+[baltar exclaiming in wonder]	1
+[baltar exclaims in pain]	1
+[baltar exclaims]	1
+[baltar loudly clearing his throat]	1
+[baltar moaning in pleasure]	1
+[baltar sighs heavily]	1
+[baltar sniffling]	1
+[baltar stuttering]	1
+[beeping continues]	1
+[beeping intensifies]	1
+[beeping]	19
+[beeps]	1
+[billy sighs dejectedly]	1
+[birds calling]	1
+[birds chirping]	3
+[birds screeching]	1
+[boomer chuckling]	1
+[boomer continues screaming]	1
+[boomer coughing]	1
+[boomer groaning]	1
+[boomer groans]	1
+[boomer grunting]	2
+[boomer humming]	1
+[boomer screaming]	1
+[boomer sobbing]	2
+[boomer tapping foot]	1
+[both exclaiming]	1
+[both gasping]	1
+[both grunting]	7
+[both laughing heartily]	1
+[both laughing]	2
+[both moaning]	1
+[both panting]	3
+[both whispering]	1
+[bottle shattering]	1
+[breathing heavily]	5
+[bullets whistling]	1
+[buzzing]	1
+[cally gasping]	2
+[cally panting]	1
+[cally screams]	1
+[cally sobbing]	2
+[cally sobs]	1
+[cameras clicking]	1
+[cardiograph beeping]	1
+[cell door opening]	2
+[cell door shuts]	1
+[cell lock clacking]	1
+[chains jangling]	1
+[chains rattling]	1
+[chanting]	1
+[chattering on radio]	1
+[chattering]	3
+[cheering]	1
+[chilling instrumental music]	2
+[chirping]	2
+[choking]	2
+[chuckles]	6
+[chuckling]	6
+[cigar cutter clicks]	1
+[clanking]	1
+[clattering]	1
+[clearing throat]	1
+[clears throat]	8
+[clicking]	1
+[clicks]	1
+[climactic instrumental music]	5
+[clock ticking]	5
+[coins rattling]	2
+[comical instrumental music]	2
+[computer beeping]	2
+[continues panting]	1
+[coughing]	3
+[coughs]	4
+[cracking]	3
+[crashing]	2
+[crew applauding]	1
+[crew chattering]	1
+[crew cheering]	2
+[crewman specialist socinus continues wheezing]	1
+[crowd chattering]	1
+[crowd mutters in disbelie]	1
+[crying]	6
+[door bangs shut]	2
+[door clanging]	2
+[door closes]	7
+[door closing]	4
+[door creaking]	2
+[door opening]	5
+[door opens]	5
+[door shuts]	4
+[door slamming]	2
+[door slams shut]	1
+[doorbell rings]	1
+[dramatic instrumental music intensifies]	1
+[dramatic instrumental music]	28
+[dripping]	1
+[dualla exhaling]	1
+[ecg machine beeping]	3
+[ecg machine flatlining]	1
+[eerie instrumental music]	7
+[electricity buzzes]	1
+[electricity buzzing]	1
+[electronic beeping]	12
+[electronic buzzing]	1
+[electronic crackling]	1
+[ellen and tigh laughing hysterically]	1
+[ellen and tigh laughing]	1
+[ellen clears throat]	1
+[ellen crying]	1
+[ellen exclaims contentedly]	1
+[ellen gagging]	1
+[ellen giggles pretentiously]	1
+[ellen giggles]	1
+[ellen laughing alluringly]	1
+[ellen laughing mischievously]	1
+[ellen laughing]	2
+[ellen sighing]	1
+[ellen sighs heavily]	1
+[ellen sighs]	1
+[engine starts]	1
+[engine whirring loudly]	1
+[engine whirring]	1
+[engines shutting down]	1
+[engines whining]	1
+[entrance opens and shuts]	1
+[ethereal music]	1
+[exclaiming in despair]	1
+[exclaiming in exasperation]	1
+[exclaiming in pain]	1
+[exclaiming in relie]	1
+[exclaiming]	3
+[exclaims]	3
+[exhales]	1
+[exhaling]	3
+[explosion]	2
+[explosions]	1
+[explosive rumbling]	1
+[farting noise]	1
+[fast-paced instrumental music continues]	1
+[fast-paced instrumental music]	4
+[firing]	1
+[flyboy whooping]	1
+[footsteps approaching]	1
+[footsteps echoing]	1
+[footsteps thudding]	1
+[gagging]	1
+[gags]	1
+[gasping and choking]	1
+[gasping]	19
+[gasps]	9
+[gate clanking]	1
+[gate closes]	1
+[gate closing]	1
+[gate opening]	2
+[giggling mischievously]	1
+[giggling]	2
+[glass shattering]	2
+[glasses clinking]	1
+[grave instrumental music]	2
+[gravel pounding]	1
+[gripping instrumental music]	3
+[groaning and grunting]	1
+[groaning]	15
+[groans]	13
+[grunting]	10
+[grunts]	11
+[guard]	1
+[gun clicking]	1
+[gun clicks]	2
+[gun cocking]	5
+[gun fires]	5
+[gun firing continues]	1
+[gun firing]	14
+[guns clicking]	1
+[guns cocking]	2
+[guns continue firing]	3
+[guns firing]	12
+[gunshot]	7
+[gunshots]	2
+[hatch door closing]	1
+[hatch door opening]	1
+[haunting music]	1
+[heavy footsteps approaching]	1
+[helo coughing]	2
+[helo laughs]	2
+[helo panting]	4
+[helo whistling a tune]	1
+[helo yelps]	1
+[hissing]	1
+[hotdog's voice distorting]	1
+[hubbub continues]	1
+[humming]	1
+[inaudible]	4
+[kara laughs]	1
+[kat's voice distorting]	2
+[kat screaming]	2
+[kat whooping]	1
+[knocking on door]	6
+[laughing continues]	1
+[laughing mockingly]	1
+[laughing]	9
+[laughs]	5
+[leaves rustling]	2
+[leoben coughing]	2
+[leoben exclaims]	1
+[leoben gasping and choking]	1
+[leoben groaning]	1
+[leoben gurgling]	1
+[leoben laughs]	1
+[light instrumental music playing]	1
+[light orchestral music]	1
+[liquid dripping]	1
+[lntense instrumental music continues]	3
+[lntense instrumental music]	20
+[loud banging]	2
+[loud beeping]	1
+[loud crashing]	1
+[machine buzzing]	1
+[machine humming]	1
+[machines beeping]	4
+[machines humming]	1
+[machines whirring]	1
+[man's voice on pa system]	1
+[man chattering on pa system]	2
+[man chattering on radio]	1
+[man chattering]	2
+[mason groaning]	1
+[mason screaming]	1
+[mechanical whirring]	1
+[melancholic instrumental music]	2
+[men chattering]	8
+[men laughing]	1
+[men panting]	1
+[men shouting]	1
+[metal clangs]	1
+[metallic rolling]	1
+[microphone feeding back]	1
+[microphone screeching]	1
+[military instrumental music]	1
+[moaning]	2
+[monitor beeping]	1
+[muffled speech]	1
+[mumbling]	1
+[music continues playing]	2
+[music intensifies]	1
+[music playing]	1
+[mysterious instrumental music intensifies]	1
+[mysterious instrumental music]	3
+[notebook thudding]	1
+[ominous instrumental music intensifies]	3
+[ominous instrumental music]	8
+[on pa system]	1
+[on phone]	1
+[on radio]	12
+[on wireless]	1
+[opera music continues]	1
+[opera music playing]	1
+[opera music stops]	1
+[orchestral music continues]	1
+[orchestral music swells]	1
+[over pa system]	2
+[over pa]	4
+[pa system beeping]	2
+[panting]	25
+[pants and grunts]	1
+[pants]	1
+[people chattering]	12
+[people clamoring]	2
+[people laughing]	1
+[people mumbling]	1
+[people murmuring]	3
+[people screaming]	1
+[people shouting]	3
+[people whistling]	1
+[people yelling]	1
+[phone buzzing]	3
+[phone clicks]	1
+[phone ringing]	2
+[pilots chattering]	2
+[pilots cheering]	2
+[pilots chuckling]	1
+[pilots exclaiming]	1
+[pilots singing and cheering]	1
+[ping]	1
+[plants rustling]	1
+[prisoner grunting]	2
+[prisoner grunts]	1
+[prisoners shouting]	1
+[prisoners yelling]	1
+[quavering]	1
+[racetrack sighing in fear]	1
+[radio feedback]	1
+[radio tuning]	1
+[rain pattering]	2
+[rapid beeping]	1
+[rapid electronic beeping]	1
+[rapid gunshots firing]	1
+[rapping on table]	1
+[rasping]	1
+[reporters chattering]	1
+[reporters clamoring]	1
+[reporters exclaiming together]	1
+[reporters whispering]	1
+[robots grunting]	1
+[robots screeching]	1
+[roslin panting]	1
+[rumbling]	7
+[scoffing]	1
+[scoffs]	4
+[screaming]	17
+[screams in pain]	1
+[screams]	2
+[seaborne grunting]	1
+[seagulls cawing]	1
+[seductive instrumental music continues]	1
+[seductive instrumental music]	1
+[seductive music stops]	1
+[serious instrumental music]	1
+[sharon crying]	2
+[sharon groaning]	1
+[sharon moaning]	1
+[sharon screaming]	1
+[ship humming]	1
+[ship rumbling]	1
+[shushing]	3
+[sighing]	25
+[sighs softly]	1
+[sighs]	15
+[signal beeping]	1
+[sinister instrumental music]	3
+[siren sounding]	1
+[slow footsteps]	1
+[slow instrumental music]	3
+[smirking]	1
+[snare drums sounding military drumbeat]	1
+[snickers]	1
+[sniffing]	1
+[sniffles]	1
+[sniffs]	2
+[sobbing]	8
+[sober instrumental music]	1
+[soft instrumental music continues]	2
+[soft instrumental music]	7
+[solemn instrumental music continues]	6
+[solemn instrumental music intensifies]	1
+[solemn instrumental music]	15
+[sombre instrumental music continues]	1
+[sombre instrumental music intensifies]	1
+[sombre instrumental music]	16
+[soothing instrumental music]	1
+[spacecraft engine droning]	1
+[spacecraft engine starting]	1
+[spanner clanking]	1
+[squeaking]	1
+[stammering]	2
+[starbuck and apollo laughing]	1
+[starbuck chokes]	1
+[starbuck chuckles]	1
+[starbuck clears her throat]	1
+[starbuck clears throat]	2
+[starbuck coughing]	1
+[starbuck exclaiming in pain]	4
+[starbuck exhales]	1
+[starbuck gasping]	1
+[starbuck giggles]	1
+[starbuck giggling]	1
+[starbuck groaning]	1
+[starbuck groans]	1
+[starbuck grunting in pain]	1
+[starbuck grunting]	3
+[starbuck grunts]	2
+[starbuck laughing]	2
+[starbuck laughs dryly]	1
+[starbuck laughs]	1
+[starbuck panting heavily]	2
+[starbuck panting hysterically]	1
+[starbuck panting]	2
+[starbuck screams maniacally]	1
+[starbuck sniffs]	1
+[starbuck wheezing]	1
+[starbuck whooping]	1
+[static buzzing]	1
+[struggles and pants]	2
+[stuttering]	3
+[suspenseful instrumental music continues]	4
+[suspenseful instrumental music intensifies]	1
+[suspenseful instrumental music]	21
+[sympathetic instrumental music]	1
+[sympathetically]	1
+[system beeping]	1
+[tap squeaking]	1
+[tarn groaning]	1
+[tense instrumental music continues]	20
+[tense instrumental music intensifies]	12
+[tense instrumental music]	54
+[tense music reaches crescendo]	1
+[theme music]	20
+[thrilling instrumental music]	1
+[thudding]	5
+[thunder clapping]	1
+[thunder rumbling]	7
+[ticking]	1
+[tigh and ellen chuckling]	1
+[tigh exhaling]	1
+[tigh grunting and groaning]	1
+[tigh grunts]	1
+[tigh moaning]	1
+[toilet flushing]	1
+[truck engine droning]	1
+[tyrol clears throat]	1
+[tyrol laughs]	1
+[tyrol screaming]	1
+[tyrol sighs heavily]	1
+[upbeat jazzy instrumental music playing]	1
+[venner breathing heavily]	1
+[warning system beeping]	2
+[water running]	1
+[wheezing]	1
+[whispering continues]	1
+[whispering]	13
+[whispers]	1
+[whooping]	2
+[whooshing]	1
+[wind blowing]	1
+[wind howling]	2
+[wind whistling]	1
+[woman chattering on pa system]	1
+[woman screams]	1
+[yells]	1
+[zarek scoffs]	1
+[zarek sighs]	1
