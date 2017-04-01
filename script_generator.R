@@ -78,7 +78,7 @@ if(!all(file.exists(showfile, charfile, effectfile))){
   write.table(sents, showfile, quote=F, sep="\t", col.names=F, row.names=F)
 } else {
   sents <- readLines(showfile)
-  chars <- read.table(charfile, header=T, stringsAsFactors=F, sep="\t")
+  characters <- read.table(charfile, header=T, stringsAsFactors=F, sep="\t")
   effects <- read.table(effectfile, header=T, stringsAsFactors=F, sep="\t")
 }
 
