@@ -115,7 +115,6 @@ getTweet <- function(){
 
 txt<-getTweet()
 
-# tweet <- 1
 if(tweet=="tweet"){
   suppressMessages(require(twitteR))
 
@@ -128,7 +127,7 @@ if(tweet=="tweet"){
   updateStatus(txt)
 } else {
   # sink()
-  txt
+  print(txt)
 }
 
 # file.remove(".log")
