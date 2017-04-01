@@ -29,9 +29,12 @@ require(yaml)
 ## Running the script
 Running `Rscript /path/to/script_generator.R` from the command line (or `source(/path/to/script_generator.R)` from within an active R or RStudio session) outputs a single generated text string, such as:
 
-`"ADAMA: All right. all right. so, what the hell is tom zarek."`
+`"[microphone screeching][sniffs] STARBUCK: It's an honor to have to talk, not really."`
 
-You can also run this with the `tweet` argument (`Rscript /path/to/script_generator.R tweet`), which will load the `twitteR` package and the `_config.yml` file containing your unique API keys (see [Configuration](#configuration) below), then update the status of your twitter bot with the generated text.
+You can also run this with the `tweet` argument (`Rscript /path/to/script_generator.R tweet`), which will load the `twitteR` package and the `_config.yml` file containing your unique API keys (see [Configuration](#configuration) below), then update the status of your twitter bot with the generated text:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">[microphone screeching][sniffs] STARBUCK: It&#39;s an honor to have to talk, not really.</p>&mdash; Number Nine (@MightBeACylon) <a href="https://twitter.com/MightBeACylon/status/848220676280508418">April 1, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Twitter API Setup
 
