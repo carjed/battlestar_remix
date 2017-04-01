@@ -6,8 +6,12 @@ require(stringr)
 require(twitteR)
 require(yaml)
 
-this.dir <- dirname(parent.frame(2)$ofile)
-setwd(this.dir)
+isRStudio <- Sys.getenv("RSTUDIO") == "1"
+
+if(isRStudio){
+  this.dir <- dirname(parent.frame(2)$ofile)
+  setwd(this.dir)
+}
 
 # must create a '_config.yaml' file specifying your unique access tokens to use the twitter API
 # See '_example_config.yaml' for an example
